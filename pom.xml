@@ -4,7 +4,7 @@
 
 	<groupId>br.com.ferreira</groupId>
 	<artifactId>mavenReleaseTest</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>Maven Release Test</name>
 	<description>Maven Release Test</description>
 
@@ -20,8 +20,8 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</connection>
-		<developerConnection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</developerConnection>
+		<connection>scm:git:git@github.com:Nirthol/MavenVersion.git</connection>
+		<developerConnection>scm:git:git@github.com:Nirthol/MavenVersion.git</developerConnection>
 		<url>https://github.com/Nirthol/MavenVersion</url>
 		<tag>0.0.1</tag>
 	</scm>
@@ -60,7 +60,7 @@
 					<goals>pre-integration-test</goals>
 					<preparationGoals>package</preparationGoals>
 					<allowTimestampedSnapshots>true</allowTimestampedSnapshots>
-					<tagNameFormat>@{project.version}</tagNameFormat>
+					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<remoteTagging>false</remoteTagging>
 				</configuration>
 			</plugin>
