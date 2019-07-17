@@ -4,7 +4,7 @@
 
 	<groupId>br.com.ferreira</groupId>
 	<artifactId>mavenReleaseTest</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>Maven Release Test</name>
 	<description>Maven Release Test</description>
 
@@ -23,7 +23,7 @@
 		<connection>scm:git:git@github.com:Nirthol/MavenVersion.git</connection>
 		<developerConnection>scm:git:git@github.com:Nirthol/MavenVersion.git</developerConnection>
 		<url>https://github.com/Nirthol/MavenVersion</url>
-		<tag>v0.0.1</tag>
+		<tag>0.0.1</tag>
 	</scm>
 
 	<build>
