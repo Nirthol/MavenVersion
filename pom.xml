@@ -36,7 +36,7 @@
 						<manifest>
 							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
 							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
-							<mainClass>org.ea.VersioningDemo</mainClass>
+							<mainClass>mavenReleaseTest.MainClass</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
